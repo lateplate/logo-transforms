@@ -1,8 +1,7 @@
 @import "shared"
 
 .container
-  width: 450px
-  position: relative
+  width: 500px
 
 .box
   height: 100px
@@ -10,7 +9,7 @@
   float: left
   background: black
   color: white
-  // border: 1px solid red
+  border: 1px solid red
 
 .box-spacer
   @extend .box
@@ -37,3 +36,10 @@
 
 .h-connect
   -webkit-transform: scale(1.50, .50)
+
+.curve1
+  -webkit-transform: scale(2.1) translateX(5px)
+  z-index: -10
+
+.bottom
+  z-index: -5 

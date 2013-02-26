@@ -13,48 +13,57 @@
 
 /* line 3, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .container {
-  width: 450px;
-  position: relative; }
+  width: 500px; }
 
-/* line 7, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 6, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .box, .box-spacer {
   height: 100px;
   width: 100px;
   float: left;
   background: black;
-  color: white; }
+  color: white;
+  border: 1px solid red; }
 
-/* line 15, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 14, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .box-spacer {
   height: 50px; }
 
-/* line 19, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 18, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 22, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 21, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .row {
   width: 100%;
   height: 100px; }
 
-/* line 26, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 25, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .row-spacer {
   height: 50px; }
 
-/* line 29, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 28, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .v-spacer {
   width: 50px; }
 
-/* line 32, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 31, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .white {
   background: white; }
 
-/* line 35, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 34, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .v-connect {
   -webkit-transform: scale(0.5, 1.5); }
 
-/* line 38, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 37, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .h-connect {
   -webkit-transform: scale(1.5, 0.5); }
+
+/* line 40, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.curve1 {
+  -webkit-transform: scale(2.1) translateX(5px);
+  z-index: -10; }
+
+/* line 44, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.bottom {
+  z-index: -5; }
