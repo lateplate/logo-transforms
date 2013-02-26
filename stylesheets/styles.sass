@@ -1,5 +1,24 @@
 @import "shared"
-@import "normalize"
-@import "grid"
-@import "mixins"
-@import "main"
+// @import "normalize"
+
+.container
+  width: 450px
+
+.box
+  height: 100px
+  width: 100px
+  float: left
+  background: black
+  color: white
+  // +border-radius(50%)
+
+.box-white
+  @extend .box
+  background: white
+  color: black
+
+.horizontal
+  width: 50px
+
+.vertical
+  height: 50px
