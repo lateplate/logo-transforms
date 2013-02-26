@@ -4,7 +4,7 @@
 // 37SIGNALS STYLES
 // *****
 
-.container
+.signals-container
   width: 500px
 
 .box
@@ -13,7 +13,7 @@
   float: left
   background: black
   color: white
-  border: 1px solid red
+  // border: 1px solid red
 
 .box-spacer
   @extend .box
@@ -36,19 +36,33 @@
   background: white
 
 .v-connect
-  -webkit-transform: scale(.50, 1.50)
+  -webkit-transform: scale(.65, 1.50)
 
 .h-connect
   -webkit-transform: scale(1.50, .50)
 
-.curve1
-  -webkit-transform: scale(2.1) translateX(5px)
-  z-index: -10
+.spacer1
+  height: 81px
+  width: 67px
+  float: left
+  background: white
+  // border: 1px solid red
+  -webkit-transform: translate(-33px, -315px)
+  +border-radius(45%)
+  z-index: 10
 
-.bottom
-  z-index: -5 
+.spacer2
+  height: 80px
+  width: 67px
+  float: left
+  background: white
+  // border: 1px solid red
+  -webkit-transform: translate(-1px, -315px)
+  +border-radius(45%)
+  z-index: 10
 
-
+.text
+  z-index: -1
 
 // *****
 // DARING FIREBALL STYLES
