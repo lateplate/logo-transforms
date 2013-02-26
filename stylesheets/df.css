@@ -16,9 +16,10 @@
   width: 500px;
   height: 500px;
   background: #4a525a;
-  padding: 50px; }
+  padding: 50px;
+  margin: 0 auto; }
 
-/* line 9, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
+/* line 10, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
 .circle {
   margin: 25px;
   height: 450px;
@@ -28,11 +29,11 @@
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 16, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
+/* line 17, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
 .star-container {
   -webkit-transform: translate(25px, 150px); }
 
-/* line 19, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
+/* line 20, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
 .star1 {
   width: 0;
   height: 0;
@@ -41,7 +42,7 @@
   border-bottom: 140px solid #4a525a;
   -webkit-transform: rotate(35deg); }
 
-/* line 27, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
+/* line 28, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
 .star2 {
   width: 0;
   height: 0;
@@ -50,7 +51,7 @@
   border-bottom: 140px solid #4a525a;
   -webkit-transform: translateY(-140px) rotate(-35deg); }
 
-/* line 35, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
+/* line 36, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/df.sass */
 .star3 {
   width: 0;
   height: 0;
