@@ -45,3 +45,24 @@ $font-size-base: 1em
   -webkit-border-radius: $border-radius
   -moz-border-radius: $border-radius
   border-radius: $border-radius
+
+@mixin cutout($height, $width, $translateX, $translateY, $border-radius, $background: white)
+  height: $height
+  width: $width
+  background: $background
+  +border-radius($border-radius)
+  -webkit-transform: translate($translateX, $translateY)
+  -moz-transform: translate($translateX, $translateY)
+  -o-transform: translate($translateX, $translateY)
+  transform: translate($translateX, $translateY)
+  position: absolute
+  top: 0
+  left: 0
+
+@mixin triangle($border-left, $border-right, $border-bottom, $rotate, $translateX, $translateY)
+  width: 0
+  height: 0
+  border-left: $border-left solid transparent
+  border-right: $border-right solid transparent
+  border-bottom: $border-bottom solid #4A525A
+  -webkit-transform: translate($translateX, $translateY) rotate($rotate)

@@ -17,129 +17,152 @@ body {
 
 /* line 10, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .signals-container {
-  min-width: 480px;
-  width: 480px;
-  padding-left: 75px;
-  margin: 75px auto; }
+  width: 500px;
+  position: relative; }
 
-/* line 16, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.box, .box-spacer, .sl-box, .flag {
+/* line 14, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.box, .circle, .box-thin, .horizontal-connector, .box-short, .vertical-connector, .sl-box, .flag {
   height: 100px;
   width: 100px;
   float: left;
   background: #231f20;
   color: white; }
 
-/* line 24, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.box-spacer {
-  height: 50px; }
-
-/* line 28, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 22, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 31, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.row {
-  width: 100%;
-  height: 100px; }
+/* line 26, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.push-right {
+  margin-left: 50px; }
 
-/* line 35, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.row-spacer {
-  height: 50px; }
+/* line 29, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.push-center {
+  margin-left: 150px; }
 
-/* line 38, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.v-spacer {
+/* line 32, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.box-thin, .horizontal-connector {
   width: 50px; }
 
-/* line 41, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.white {
-  background: white; }
+/* line 36, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.box-short, .vertical-connector {
+  height: 50px; }
 
-/* line 44, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.v-connect {
+/* line 40, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.vertical-connector {
   -webkit-transform: scale(0.65, 1.5); }
 
-/* line 47, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.h-connect {
-  -webkit-transform: scale(1.5, 0.5); }
+/* line 44, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.horizontal-connector {
+  -webkit-transform: scale(1.5, 0.65); }
 
 /* line 50, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.spacer1 {
-  height: 83px;
+.cutout1 {
+  height: 84px;
   width: 67px;
-  float: left;
   background: white;
-  -webkit-transform: translate(-34px, -316px);
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
-  border-radius: 45%; }
+  border-radius: 45%;
+  -webkit-transform: translate(-35px, 83px);
+  -moz-transform: translate(-35px, 83px);
+  -o-transform: translate(-35px, 83px);
+  transform: translate(-35px, 83px);
+  position: absolute;
+  top: 0;
+  left: 0; }
 
-/* line 59, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.spacer2 {
-  height: 86px;
+/* line 53, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.cutout2 {
+  height: 84px;
   width: 67px;
-  float: left;
   background: white;
-  -webkit-transform: translate(-1px, -315px);
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
-  border-radius: 45%; }
+  border-radius: 45%;
+  -webkit-transform: translate(68px, 83px);
+  -moz-transform: translate(68px, 83px);
+  -o-transform: translate(68px, 83px);
+  transform: translate(68px, 83px);
+  position: absolute;
+  top: 0;
+  left: 0; }
 
-/* line 68, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.spacer3 {
+/* line 56, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.cutout3 {
   height: 80px;
   width: 104px;
-  float: left;
   background: white;
-  -webkit-transform: translate(-65px, -295px);
   -webkit-border-radius: 49%;
   -moz-border-radius: 49%;
-  border-radius: 49%; }
+  border-radius: 49%;
+  -webkit-transform: translate(72px, 99px);
+  -moz-transform: translate(72px, 99px);
+  -o-transform: translate(72px, 99px);
+  transform: translate(72px, 99px);
+  position: absolute;
+  top: 0;
+  left: 0; }
 
-/* line 77, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.spacer4 {
+/* line 59, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.cutout4 {
   height: 80px;
-  width: 87px;
-  float: left;
+  width: 104px;
   background: white;
-  -webkit-transform: translate(-156px, -185px);
   -webkit-border-radius: 49%;
   -moz-border-radius: 49%;
-  border-radius: 49%; }
+  border-radius: 49%;
+  -webkit-transform: translate(72px, 222px);
+  -moz-transform: translate(72px, 222px);
+  -o-transform: translate(72px, 222px);
+  transform: translate(72px, 222px);
+  position: absolute;
+  top: 0;
+  left: 0; }
 
-/* line 86, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.spacer5 {
-  height: 99px;
+/* line 62, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.cutout5 {
+  height: 97px;
   width: 70px;
-  float: left;
   background: white;
-  -webkit-transform: translate(-218px, -175px);
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
-  border-radius: 45%; }
+  border-radius: 45%;
+  -webkit-transform: translate(107px, 227px);
+  -moz-transform: translate(107px, 227px);
+  -o-transform: translate(107px, 227px);
+  transform: translate(107px, 227px);
+  position: absolute;
+  top: 0;
+  left: 0; }
 
-/* line 95, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
-.spacer6 {
-  height: 98px;
+/* line 65, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+.cutout6 {
+  height: 97px;
   width: 67px;
-  float: left;
   background: white;
-  -webkit-transform: translate(-171px, -174px);
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
-  border-radius: 45%; }
+  border-radius: 45%;
+  -webkit-transform: translate(223px, 227px);
+  -moz-transform: translate(223px, 227px);
+  -o-transform: translate(223px, 227px);
+  transform: translate(223px, 227px);
+  position: absolute;
+  top: 0;
+  left: 0; }
 
-/* line 108, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 74, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .df-container {
   width: 500px;
   height: 500px;
   background: #4a525a;
   padding: 50px;
-  margin: 100px auto; }
+  margin: 100px 0; }
 
-/* line 115, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 81, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .df-circle {
   margin: 25px;
   height: 450px;
@@ -149,70 +172,70 @@ body {
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 122, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 88, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .star-container {
   -webkit-transform: translate(25px, 150px); }
 
-/* line 125, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 91, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .star1 {
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;
   border-bottom: 140px solid #4a525a;
-  -webkit-transform: rotate(35deg); }
+  -webkit-transform: translate(0, 0) rotate(35deg); }
 
-/* line 133, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 94, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .star2 {
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;
   border-bottom: 140px solid #4a525a;
-  -webkit-transform: translateY(-140px) rotate(-35deg); }
+  -webkit-transform: translate(0px, -140px) rotate(-35deg); }
 
-/* line 141, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 97, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .star3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 130px solid #4a525a;
-  -webkit-transform: translate(150px, -395px); }
+  -webkit-transform: translate(150px, -395px) rotate(0); }
 
-/* line 153, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 107, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .sl-container {
   width: 500px;
   margin: 100px auto;
   padding-bottom: 300px; }
 
-/* line 158, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 112, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .sl-box, .flag {
   background: #c1272c;
   text-align: center; }
 
-/* line 163, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 117, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flag {
   margin: 0 20px; }
 
-/* line 167, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 121, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .left-angle {
   -webkit-transform: rotate(-20deg); }
 
-/* line 170, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 124, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .right-angle {
   -webkit-transform: rotate(20deg); }
 
-/* line 173, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 127, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flagpole, .flagpole-left, .flagpole-right {
   height: 200px;
   width: 20px;
   margin: 0 10px; }
 
-/* line 178, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 132, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flagpole-left {
   -webkit-transform: rotate(-20deg) translate(20px, -13px); }
 
-/* line 182, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
+/* line 136, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flagpole-right {
   -webkit-transform: rotate(20deg) translate(-20px, -13px); }
