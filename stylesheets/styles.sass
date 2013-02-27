@@ -17,7 +17,6 @@ body
   float: left
   background: #231F20
   color: white
-  // border: 1px solid red
 
 .circle
   @extend .box
@@ -106,34 +105,73 @@ body
 
 .sl-container
   width: 500px
-  margin: 100px auto
-  padding-bottom: 300px
-
-.sl-box
-  @extend .box
-  background: #C1272C
-  text-align: center
+  padding-bottom: 200px
+  position: relative
+  font-family: "Bitter", serif
+  font-size: 120px
+  line-height: 120px
+  font-weight: bold
 
 .flag
-  @extend .sl-box
-  margin: 0 20px
-
-.left-angle
-  -webkit-transform: rotate(-20deg)
-
-.right-angle
-  -webkit-transform: rotate(20deg)
+  // height: 100px
+  // width: 100px
+  background: #231F20
+  color: white
+  background: #C1272C
+  text-align: center
+  position: absolute
+  top: 0
+  left: 0
 
 .flagpole
-  height: 200px
-  width: 20px
-  margin: 0 10px
-  
+  height: 300px
+  width: 30px
+  background: #C1272C
+  position: absolute
+  top: 0
+  left: 0
+
+.left
+  -webkit-transform: rotate(-21deg) translate(100px, 0)
+  height: 500px
+  width: 500px
+  position: absolute
+
+.flag-left
+  @extend .flag
+  padding: 0 25px 10px 100px
+
 .flagpole-left
   @extend .flagpole
-  -webkit-transform: rotate(-20deg) translate(20px, -13px)
+  -webkit-transform: translate(220px, 0)
+
+.flag-left-cutout
+  width: 0
+  height: 0
+  border-top: 65px solid transparent
+  border-left: 75px solid white
+  border-bottom: 65px solid transparent
+  -webkit-transform: translate(-1px, 0)
+
+.right
+  height: 500px
+  width: 500px
+  position: absolute
+  -webkit-transform: rotate(21deg) translate(320px, -45px)
+
+.flag-right
+  @extend .flag
+  // -webkit-transform: translate(350px, 0)
+  padding: 0 100px 10px 25px
+
+.flag-right-cutout
+  width: 0
+  height: 0
+  border-top: 65px solid transparent
+  border-right: 75px solid white
+  border-bottom: 65px solid transparent
+  -webkit-transform: translate(116px, 0)
 
 .flagpole-right
   @extend .flagpole
-  -webkit-transform: rotate(20deg) translate(-20px, -13px)
-
+  -webkit-transform: translate(-50px, 0)
