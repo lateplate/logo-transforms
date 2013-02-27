@@ -3,13 +3,16 @@
 body
   width: 100%
 
+
+
 // *****
 // 37SIGNALS STYLES
 // *****
 
 .signals-container
-  width: 500px
+  width: 400px
   position: relative
+  margin: 0 auto
 
 .box
   height: 100px
@@ -44,8 +47,6 @@ body
   @extend .box-thin
   -webkit-transform: scale(1.50, .65)
 
-// +cutout($height, $width, $translateX, $translateY, $border-radius, $background: white)
-
 .cutout1
   +cutout(84px, 67px, -35px, 83px, 45%)
 
@@ -75,7 +76,7 @@ body
   height: 500px
   background: #4A525A
   padding: 50px
-  margin: 100px 0
+  margin: 75px auto
 
 .df-circle 
   margin: 25px
@@ -98,23 +99,26 @@ body
 
 
 
-
 // *****
 // STARTER LEAGUE STYLES
 // *****
 
 .sl-container
-  width: 500px
+  width: 610px
   padding-bottom: 200px
   position: relative
   font-family: "Bitter", serif
   font-size: 120px
   line-height: 120px
   font-weight: bold
+  margin: 0 auto
+
+.flag-container
+  height: 500px
+  width: 500px
+  position: absolute
 
 .flag
-  // height: 100px
-  // width: 100px
   background: #231F20
   color: white
   background: #C1272C
@@ -131,11 +135,13 @@ body
   top: 0
   left: 0
 
-.left
-  -webkit-transform: rotate(-21deg) translate(100px, 0)
-  height: 500px
-  width: 500px
-  position: absolute
+.flag-cutout
+  width: 0
+  height: 0
+
+.left-flag-container
+  @extend .flag-container
+  +flag-transform(-21deg, 100px, 0)
 
 .flag-left
   @extend .flag
@@ -143,35 +149,30 @@ body
 
 .flagpole-left
   @extend .flagpole
-  -webkit-transform: translate(220px, 0)
+  +flag-transform(0, 220px, 0)
 
 .flag-left-cutout
-  width: 0
-  height: 0
+  @extend .flag-cutout
   border-top: 65px solid transparent
   border-left: 75px solid white
   border-bottom: 65px solid transparent
-  -webkit-transform: translate(-1px, 0)
+  +flag-transform(0, -1px, 0)
 
-.right
-  height: 500px
-  width: 500px
-  position: absolute
-  -webkit-transform: rotate(21deg) translate(320px, -45px)
+.right-flag-container
+  @extend .flag-container
+  +flag-transform(21deg, 320px, -45px)
 
 .flag-right
   @extend .flag
-  // -webkit-transform: translate(350px, 0)
   padding: 0 100px 10px 25px
 
 .flag-right-cutout
-  width: 0
-  height: 0
+  @extend .flag-cutout
   border-top: 65px solid transparent
   border-right: 75px solid white
   border-bottom: 65px solid transparent
-  -webkit-transform: translate(116px, 0)
+  +flag-transform(0, 116px, 0)
 
 .flagpole-right
   @extend .flagpole
-  -webkit-transform: translate(-50px, 0)
+  +flag-transform(0, -50px, 0)

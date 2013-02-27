@@ -66,3 +66,9 @@ $font-size-base: 1em
   border-right: $border-right solid transparent
   border-bottom: $border-bottom solid #4A525A
   -webkit-transform: translate($translateX, $translateY) rotate($rotate)
+
+@mixin flag-transform($rotate, $translateX, $translateY)
+  -webkit-transform: rotate($rotate) translate($translateX, $translateY)
+  -moz-transform: rotate($rotate) translate($translateX, $translateY)
+  -o-transform: rotate($rotate) translate($translateX, $translateY)
+  transform: rotate($rotate) translate($translateX, $translateY)
