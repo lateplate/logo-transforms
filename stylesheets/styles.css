@@ -75,10 +75,10 @@ p {
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
   border-radius: 45%;
-  -webkit-transform: translate(-35px, 83px);
-  -moz-transform: translate(-35px, 83px);
-  -o-transform: translate(-35px, 83px);
-  transform: translate(-35px, 83px);
+  -webkit-transform: translate(-34px, 83px) rotate(0);
+  -moz-transform: translate(-34px, 83px) rotate(0);
+  -o-transform: translate(-34px, 83px) rotate(0);
+  transform: translate(-34px, 83px) rotate(0);
   position: absolute;
   top: 0;
   left: 0; }
@@ -91,26 +91,26 @@ p {
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
   border-radius: 45%;
-  -webkit-transform: translate(68px, 83px);
-  -moz-transform: translate(68px, 83px);
-  -o-transform: translate(68px, 83px);
-  transform: translate(68px, 83px);
+  -webkit-transform: translate(69px, 83px) rotate(0);
+  -moz-transform: translate(69px, 83px) rotate(0);
+  -o-transform: translate(69px, 83px) rotate(0);
+  transform: translate(69px, 83px) rotate(0);
   position: absolute;
   top: 0;
   left: 0; }
 
 /* line 61, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .cutout3 {
-  height: 80px;
+  height: 81px;
   width: 104px;
   background: white;
   -webkit-border-radius: 49%;
   -moz-border-radius: 49%;
   border-radius: 49%;
-  -webkit-transform: translate(72px, 99px);
-  -moz-transform: translate(72px, 99px);
-  -o-transform: translate(72px, 99px);
-  transform: translate(72px, 99px);
+  -webkit-transform: translate(72px, 99px) rotate(0);
+  -moz-transform: translate(72px, 99px) rotate(0);
+  -o-transform: translate(72px, 99px) rotate(0);
+  transform: translate(72px, 99px) rotate(0);
   position: absolute;
   top: 0;
   left: 0; }
@@ -123,10 +123,10 @@ p {
   -webkit-border-radius: 49%;
   -moz-border-radius: 49%;
   border-radius: 49%;
-  -webkit-transform: translate(72px, 222px);
-  -moz-transform: translate(72px, 222px);
-  -o-transform: translate(72px, 222px);
-  transform: translate(72px, 222px);
+  -webkit-transform: translate(76px, 221px) rotate(5deg);
+  -moz-transform: translate(76px, 221px) rotate(5deg);
+  -o-transform: translate(76px, 221px) rotate(5deg);
+  transform: translate(76px, 221px) rotate(5deg);
   position: absolute;
   top: 0;
   left: 0; }
@@ -134,31 +134,31 @@ p {
 /* line 67, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .cutout5 {
   height: 97px;
-  width: 70px;
+  width: 72px;
   background: white;
-  -webkit-border-radius: 45%;
-  -moz-border-radius: 45%;
-  border-radius: 45%;
-  -webkit-transform: translate(107px, 227px);
-  -moz-transform: translate(107px, 227px);
-  -o-transform: translate(107px, 227px);
-  transform: translate(107px, 227px);
+  -webkit-border-radius: 48%;
+  -moz-border-radius: 48%;
+  border-radius: 48%;
+  -webkit-transform: translate(108px, 229px) rotate(10deg);
+  -moz-transform: translate(108px, 229px) rotate(10deg);
+  -o-transform: translate(108px, 229px) rotate(10deg);
+  transform: translate(108px, 229px) rotate(10deg);
   position: absolute;
   top: 0;
   left: 0; }
 
 /* line 70, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .cutout6 {
-  height: 97px;
-  width: 67px;
+  height: 98px;
+  width: 72px;
   background: white;
-  -webkit-border-radius: 45%;
-  -moz-border-radius: 45%;
-  border-radius: 45%;
-  -webkit-transform: translate(223px, 227px);
-  -moz-transform: translate(223px, 227px);
-  -o-transform: translate(223px, 227px);
-  transform: translate(223px, 227px);
+  -webkit-border-radius: 48%;
+  -moz-border-radius: 48%;
+  border-radius: 48%;
+  -webkit-transform: translate(222px, 229px) rotate(-10deg);
+  -moz-transform: translate(222px, 229px) rotate(-10deg);
+  -o-transform: translate(222px, 229px) rotate(-10deg);
+  transform: translate(222px, 229px) rotate(-10deg);
   position: absolute;
   top: 0;
   left: 0; }
@@ -290,17 +290,17 @@ p {
 
 /* line 170, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flag-right {
-  padding: 0 100px 10px 25px; }
+  padding: 0 107px 10px 25px; }
 
 /* line 174, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flag-right-cutout {
   border-top: 65px solid transparent;
   border-right: 75px solid white;
   border-bottom: 65px solid transparent;
-  -webkit-transform: rotate(0) translate(116px, 0);
-  -moz-transform: rotate(0) translate(116px, 0);
-  -o-transform: rotate(0) translate(116px, 0);
-  transform: rotate(0) translate(116px, 0); }
+  -webkit-transform: rotate(0) translate(124px, 0);
+  -moz-transform: rotate(0) translate(124px, 0);
+  -o-transform: rotate(0) translate(124px, 0);
+  transform: rotate(0) translate(124px, 0); }
 
 /* line 181, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .flagpole-right {

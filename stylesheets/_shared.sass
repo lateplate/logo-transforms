@@ -46,15 +46,15 @@ $font-size-base: 1em
   -moz-border-radius: $border-radius
   border-radius: $border-radius
 
-@mixin cutout($height, $width, $translateX, $translateY, $border-radius, $background: white)
+@mixin cutout($height, $width, $translateX, $translateY, $border-radius, $background: white, $rotate: 0)
   height: $height
   width: $width
   background: $background
   +border-radius($border-radius)
-  -webkit-transform: translate($translateX, $translateY)
-  -moz-transform: translate($translateX, $translateY)
-  -o-transform: translate($translateX, $translateY)
-  transform: translate($translateX, $translateY)
+  -webkit-transform: translate($translateX, $translateY) rotate($rotate)
+  -moz-transform: translate($translateX, $translateY) rotate($rotate)
+  -o-transform: translate($translateX, $translateY) rotate($rotate)
+  transform: translate($translateX, $translateY) rotate($rotate)
   position: absolute
   top: 0
   left: 0
