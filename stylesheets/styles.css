@@ -85,16 +85,16 @@ p {
 
 /* line 58, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .cutout2 {
-  height: 84px;
+  height: 87px;
   width: 67px;
   background: white;
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
   border-radius: 45%;
-  -webkit-transform: translate(69px, 83px) rotate(0);
-  -moz-transform: translate(69px, 83px) rotate(0);
-  -o-transform: translate(69px, 83px) rotate(0);
-  transform: translate(69px, 83px) rotate(0);
+  -webkit-transform: translate(69px, 83px) rotate(-5deg);
+  -moz-transform: translate(69px, 83px) rotate(-5deg);
+  -o-transform: translate(69px, 83px) rotate(-5deg);
+  transform: translate(69px, 83px) rotate(-5deg);
   position: absolute;
   top: 0;
   left: 0; }
@@ -123,10 +123,10 @@ p {
   -webkit-border-radius: 49%;
   -moz-border-radius: 49%;
   border-radius: 49%;
-  -webkit-transform: translate(76px, 221px) rotate(5deg);
-  -moz-transform: translate(76px, 221px) rotate(5deg);
-  -o-transform: translate(76px, 221px) rotate(5deg);
-  transform: translate(76px, 221px) rotate(5deg);
+  -webkit-transform: translate(75px, 221px) rotate(5deg);
+  -moz-transform: translate(75px, 221px) rotate(5deg);
+  -o-transform: translate(75px, 221px) rotate(5deg);
+  transform: translate(75px, 221px) rotate(5deg);
   position: absolute;
   top: 0;
   left: 0; }
@@ -149,16 +149,16 @@ p {
 
 /* line 70, /Users/dankim/dropbox/web/github/logo-transforms/stylesheets/styles.sass */
 .cutout6 {
-  height: 98px;
+  height: 102px;
   width: 72px;
   background: white;
   -webkit-border-radius: 48%;
   -moz-border-radius: 48%;
   border-radius: 48%;
-  -webkit-transform: translate(222px, 229px) rotate(-10deg);
-  -moz-transform: translate(222px, 229px) rotate(-10deg);
-  -o-transform: translate(222px, 229px) rotate(-10deg);
-  transform: translate(222px, 229px) rotate(-10deg);
+  -webkit-transform: translate(222px, 229px) rotate(-11deg);
+  -moz-transform: translate(222px, 229px) rotate(-11deg);
+  -o-transform: translate(222px, 229px) rotate(-11deg);
+  transform: translate(222px, 229px) rotate(-11deg);
   position: absolute;
   top: 0;
   left: 0; }
